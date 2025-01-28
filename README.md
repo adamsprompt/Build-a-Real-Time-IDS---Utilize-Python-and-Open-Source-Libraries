@@ -14,10 +14,7 @@ an IDS will monitor your network to help detect any potential cyber attacks and 
 
 - <b>Anomaly-Based IDS:</b> This system <i/>identifies unusual behavior</i> using heuristics and prediction algorithms that are trained on previously seen attack patterns.
 
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Building the Core IDS Components
+<h2>Building the Core IDS Components</h2>
 Our IDS will comprise of four main components:
 
 A packet capture system
