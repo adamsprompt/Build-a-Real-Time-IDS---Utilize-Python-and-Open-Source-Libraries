@@ -15,10 +15,9 @@ an IDS will monitor your network to help detect any potential cyber attacks and 
 - <b>Anomaly-Based IDS:</b> This system <i/>identifies unusual behavior</i> using heuristics and prediction algorithms that are trained on previously seen attack patterns.
 
 <h2>Building the Core IDS Components</h2>
-There are four components our IDS is comprised of - a packet capture system, a traffic analysis module, a detection engine, and an alert system
-Building the Packet Capture Engine.
+There are four main components that our IDS is comprised of - a packet capture system, a traffic analysis module, a detection engine, and an alert system.
 
-<h3>The packet capture engine.</h3> We’ll use Scapy for this. Scapy is a networking library that allows us to perform network and network-related operations using Python.
+<h3>Building the Packet Capture System</h3> We’ll use (href=https://www.linkedin.com/in/adam-spach-ford>)Scapy for this. Scapy is a networking library that allows us to perform network and network-related operations using Python.
 
 <h4>Code:</h4>
 
