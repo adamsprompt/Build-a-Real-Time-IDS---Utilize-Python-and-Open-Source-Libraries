@@ -1,8 +1,7 @@
 # Build-a-Real-Time-IDS---Utilize-Python-and-Open-Source-Libraries
 Custom-build from scratch a real-time Intrusion Detection System (IDS). Use Python programming and Scapy (https://scapy.net/) for open-source libraries. Credit to Jatin Gupta https://github.com/jatin009v for sharing this project in his GitHub repositories.
 
-An Intrusion Detection System (IDS) is like a security camera for your network. Just as security cameras help identify suspicious activities in the physical world, 
-an IDS will monitor your network to help detect any potential cyber attacks and security breaches.
+As defined by Geeks For Geeks (https://www.geeksforgeeks.org/intrusion-detection-system-ids/), An Intrusion Detection System (IDS) is like a security camera for your network. Just as security cameras help identify suspicious activities in the physical world, an IDS will monitor your network to help detect any potential cyber attacks and security breaches. Jatin Gupta makes the analogy that an IDS is like
 
 Table of Contents
 Understanding the Types of IDS
