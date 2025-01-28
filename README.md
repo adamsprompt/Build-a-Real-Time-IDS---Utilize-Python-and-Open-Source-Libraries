@@ -1,35 +1,10 @@
-# Build-a-Real-Time-IDS---Utilize-Python-and-Open-Source-Libraries
-Custom-build from scratch a real-time Intrusion Detection System (IDS). Use Python programming and Scapy (https://scapy.net/) for open-source libraries. Credit to Jatin Gupta https://github.com/jatin009v for sharing this project in his GitHub repositories.
+# Build A Real-Time IDS - Utilize Python and Open-Source Libraries
+Custom-build from scratch a real-time Intrusion Detection System (IDS). Use Python programming and Scapy https://scapy.net/ for open-source libraries. Credit to Jatin Gupta https://github.com/jatin009v for sharing this project in his extensive GitHub repository library.
 
-As defined by Geeks For Geeks (https://www.geeksforgeeks.org/intrusion-detection-system-ids/), An Intrusion Detection System (IDS) is like a security camera for your network. Just as security cameras help identify suspicious activities in the physical world, an IDS will monitor your network to help detect any potential cyber attacks and security breaches. Jatin Gupta makes the analogy that an IDS is like
+As defined by Geeks For Geeks https://www.geeksforgeeks.org/intrusion-detection-system-ids/, An Intrusion Detection System (IDS) is like a security camera for your network. Just as security cameras help identify suspicious activities in the physical world, an IDS will monitor your network to help detect any potential cyber attacks and security breaches. Jatin Gupta makes the analogy that an IDS is like a security camera for your network. Just as security cameras help identify suspicious activities in the physical world, 
+an IDS will monitor your network to help detect any potential cyber attacks and security breaches.
 
-Table of Contents
-Understanding the Types of IDS
-
-How to Setup Your Development Environment
-
-Building the Core IDS Components
-
-Building the Packet Capture Engine
-
-Building the Traffic Analysis Module
-
-Building the Detection Engine
-
-Building the Alert System
-
-Putting It All Together
-
-Ideas to Extend the IDS
-
-Security Considerations
-
-Testing the IDS on Mock Data
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Understanding the Types of IDS
-Before we jump into the coding part, let’s understand the types of IDS:
+<h2>First things first, let’s understand the types of IDS:</h2>
 
 Network-based IDS (NIDS): This system monitors network traffic for suspicious activity.
 
@@ -42,7 +17,7 @@ Anomaly-based IDS: This system identifies unusual behavior using heuristics and 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-uilding the Core IDS Components
+Building the Core IDS Components
 Our IDS will comprise of four main components:
 
 A packet capture system
@@ -405,3 +380,37 @@ if __name__ == "__main__":
     test_ids()
     
 This will test the system against a variety of attacks like SYN flooding and port scanning.
+
+
+
+
+
+
+
+
+
+Table of Contents
+Understanding the Types of IDS
+
+How to Setup Your Development Environment
+
+Building the Core IDS Components
+
+Building the Packet Capture Engine
+
+Building the Traffic Analysis Module
+
+Building the Detection Engine
+
+Building the Alert System
+
+Putting It All Together
+
+Ideas to Extend the IDS
+
+Security Considerations
+
+Testing the IDS on Mock Data
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
