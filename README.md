@@ -15,28 +15,19 @@ an IDS will monitor your network to help detect any potential cyber attacks and 
 - <b>Anomaly-Based IDS:</b> This system <i/>identifies unusual behavior</i> using heuristics and prediction algorithms that are trained on previously seen attack patterns.
 
 <h2>Building the Core IDS Components</h2>
-Our IDS will comprise of four main components:
+There are four components our IDS is comprised of - a packet capture system, a traffic analysis module, a detection engine, and an alert system
+Building the Packet Capture Engine.
 
-A packet capture system
+<h3>The packet capture engine.</h3> We’ll use Scapy for this. Scapy is a networking library that allows us to perform network and network-related operations using Python.
 
-Traffic analysis module
+<h4>Code:</h4>
 
-A detection engine
+- From scapy.all, import sniff, IP, TCP
+- From collections, import defaultdict
+- Import threading
+- Import queue
 
-An alert system
-
-Building the Packet Capture Engine
-Let’s start with the packet capture engine. We’ll use Scapy for this. Scapy is a networking library that allows us to perform network and network-related operations using Python.
-
-
-code:-
-
-from scapy.all import sniff, IP, TCP
-from collections import defaultdict
-import threading
-import queue
-
-class PacketCapture:
+Class PacketCapture:
     def __init__(self):
         self.packet_queue = queue.Queue()
         self.stop_capture = threading.Event()
