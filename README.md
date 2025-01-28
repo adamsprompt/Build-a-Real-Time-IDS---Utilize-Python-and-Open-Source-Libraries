@@ -6,13 +6,13 @@ an IDS will monitor your network to help detect any potential cyber attacks and 
 
 <h2>First things first, let’s understand the types of IDS:</h2>
 
-- Network-Based IDS (NIDS): A type of intrusion detection system (IDS) that monitors traffic at strategic points <i>within a private network</i> and alerts administrators when there is suspicious activity.
+- <b>Network-Based IDS (NIDS):</b> A type of intrusion detection system (IDS) that monitors traffic at strategic points <i>within a private network</i> and alerts administrators when there is suspicious activity.
 
-- Host-Based IDS (HIDS): This system monitors system logs and file changes <I>on individual hosts</i> and is not directly deployed in the network.
+- <b>Host-Based IDS (HIDS):</b> This system monitors system logs and file changes <I>on individual hosts</i> and is not directly deployed in the network.
 
-- Signature-Based IDS: This system is either in the network or on the host and identifies attack patterns based on <i>known patterns</i> of previous attacks.
+- <b>Signature-Based IDS:</b> This system is either in the network or on the host and identifies attack patterns based on <i>known patterns</i> of previous attacks.
 
-- Anomaly-Based IDS: This system <i/>identifies unusual behavior</i> using heuristics and prediction algorithms that are trained on previously seen attack patterns.
+- <b>Anomaly-Based IDS:</b> This system <i/>identifies unusual behavior</i> using heuristics and prediction algorithms that are trained on previously seen attack patterns.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
